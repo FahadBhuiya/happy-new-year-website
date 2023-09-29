@@ -1,0 +1,194 @@
+/* 1st header style start */
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin: auto;
+}
+
+.banner {
+  position: relative;
+  width: 1600px;
+  height: 808px;
+}
+
+.header-text {
+  position: absolute;
+  top: 226px;
+  left: 930px;
+  right: 150px;
+  /* use padding top: 226px, left: 930, right, 150 */
+}
+
+.header-text {
+  text-align: right;
+}
+
+.header-text h4 {
+  color: #FFF;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.header-text p {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+.btn-primary {
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.btn-primary {
+  color: #005FAC;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+/* Header complete end */
+/* 2nd section style start */
+
+.content {
+  margin: 100px 180px;
+  text-align: left;
+}
+
+.content-2 {
+  margin: 70px 180px;
+  text-align: left;
+}
+
+.content-img-div {
+  display: flex;
+  gap: 90px;
+}
+
+.content-img-div h4 {
+  font-weight: 700;
+  font-size: 70px;
+  margin-top: 200px;
+}
+
+.content-img-div p {
+  color: #444343;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 14px;
+  margin-bottom: 15px;
+}
+
+p i {
+  color: rgb(8, 58, 223);
+}
+
+/* 3rd style start */
+
+.section-tittle {
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.myplane-blog {
+  display: flex;
+  margin-top: 40px;
+}
+
+.plane-item {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.plane-item h4 {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  margin-top: 5px;
+}
+
+.plane-item p {
+  color:  #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.radiant-content-img{
+  position: relative;
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+}
+.radiant-content-text {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  /* background-image: url('../images/watch.png'); */
+}
+.radiant-content-text h4{
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+/* footer style start */
+.footer-contenar {
+  /* margin: auto; */
+  background-color: black;
+  width: 1600px;
+  height: 577px;
+  color: white;
+  display: flex;
+  /* gap: 30px; */
+  justify-content: center;
+}
+
+.section-tittle-2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.btn-secondary {
+  background-color: rgb(69, 69, 249);
+  height: 64px;
+  width: 120px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 90px;
+}
+
+.left {
+  margin-left: 100px;
+}
+.left p {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.left img {
+  margin-right: 10px;
+}
+
+.right input[type="email"] {
+  height: 50px;
+  width: 450px;
+  background-color: black;
+  border: 4px solid white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
